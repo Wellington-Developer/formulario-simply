@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simply</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  
+  <div class="form-container">
+    <div class="form-left--side">
+      
+      <div class="info">
+        <div class="logotipo">
+          <img src="./assets/logo-light 1.svg" />
+        </div>
+        <div class="left-side--content">
+            <div data-slide="slide" class="slide">
+              <ul class="slide-items">
+                <li>
+                  <div class="imagem">
+                    <img src="./assets/img-intro.png" />
+                  </div>
+                  <h1>Crie seu catálogo digital em apenas 3 minutos!</h1>
+                </li>
+
+                <li>
+                  <div class="imagem">
+                    <img src="./assets/img-intro.png" />
+                  </div>
+                  <h1>Simples, facil e rápido! Cadastre-se</h1>
+                </li>
+  
+                
+              </ul>
+              <nav class="slide-nav">
+                <div class="slide-thumb"></div>
+                <div class="buttons">
+                  <button class="slide-prev">
+                    <img src="./assets/icons/arrow-left.svg" />
+                  </button>
+                  <button class="slide-next">
+                    <img src="./assets/icons/arrow-right.svg" />
+                  </button>
+                </div>
+              </nav>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-right--side">
+      <div class="right-side--intro">
+        <div class="logo-hidden">
+          <img src="./assets/logo-dark 1.png" />
+        </div>
+        <h1>Olá, seja bem vindo</h1>
+        <p>Insira as informações abaixo para criar!</p>
+      </div>
+      
+      <form action="" class="form">
+        <div class="info-input">
+          <label for="store-name">
+            Nome da loja
+            <input type="text" id="store-name">
+          </label>
+
+          <label for="whatsapp">
+            WhatsApp
+            <input type="text" id="whatsapp" placeholder="Ex: (012) 7777-7777">
+          </label>
+        </div>
+
+        <label for="name">
+          Seu nome
+          <input type="text" id="name">
+        </label>
+
+        <label for="email">
+          E-mail
+          <input type="email" id="email">
+        </label>
+
+        <label for="password">
+          Senha
+          <input type="password" id="password">
+        </label>
+
+        <button type="submit">Criar agora</button>
+        <h3>Ao criar o catálogo, você concorda com os <a href="#">Termos de Uso da Simply</a>.</h3>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/slide.js"></script>
+  <script src="./js/inputValidade.js"></script>
+</body>
+</html>
