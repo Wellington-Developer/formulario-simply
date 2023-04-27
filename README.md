@@ -8,7 +8,7 @@
 - JavaScript
 
 <br/><br/>
-> # 🚀 Let's build a amazing app!
+> # 🚀 Let's build an amazing app!
 
 
 
